@@ -26,7 +26,7 @@ Altarede Custom Plugin enhances your EspoCRM experience with additional features
 ## Installation
 
 1. **Download the Plugin:**
-   - Clone or download the repository.
+   - Check out the latest release on the [Releases](https://github.com/fberbert/altarede-custom-plugin/releases) page.
 
 2. **Upload to EspoCRM:**
    - Navigate to the Administration panel in EspoCRM.
@@ -63,24 +63,10 @@ Altarede Custom Plugin enhances your EspoCRM experience with additional features
 
 ## Support
 
-If you encounter any issues or have feature requests, please contact [support@altarede.com](mailto:support@altarede.com).
+If you encounter any issues or have feature requests, please contact [fabio@automatizando.dev](mailto:fabio@automatizando.dev) for assistance.
 
 ---
 
 ## License
 
 This plugin is licensed under the [MIT License](LICENSE).
-
----
-
-### Screenshots
-
-#### Custom Login Page
-![Custom Login](path/to/screenshot-login.png)
-
-#### Dark Themes
-![Altarede Dark Theme](path/to/screenshot-dark-theme.png)
-![Altarede Navy Blue Theme](path/to/screenshot-navy-blue-theme.png)
-
-#### Static Save and Edit Buttons
-![Static Buttons](path/to/screenshot-static-buttons.png)
