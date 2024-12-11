@@ -1,0 +1,6 @@
+{
+    "recordViews": {
+        "edit": "altarede-custom-plugin:views/record/edit",
+        "detail": "altarede-custom-plugin:views/record/detail"
+    }
+}
