@@ -5,7 +5,9 @@
       "client/custom/modules/altarede-custom-plugin/lib/js/loginPage.js",
       "client/custom/modules/altarede-custom-plugin/lib/js/site/navbar.js",
       "client/custom/modules/altarede-custom-plugin/lib/js/record/edit.js",
-      "client/custom/modules/altarede-custom-plugin/lib/js/record/detail.js"
+      "client/custom/modules/altarede-custom-plugin/lib/js/record/detail.js",
+      "client/custom/modules/altarede-custom-plugin/lib/js/fields/url.js",
+      "client/custom/modules/altarede-custom-plugin/lib/js/fields/address.js"
     ],
     "developerModeScriptList": [
        "__APPEND__",
@@ -13,6 +15,8 @@
       "client/custom/modules/altarede-custom-plugin/lib/js/loginPage.js",
       "client/custom/modules/altarede-custom-plugin/lib/js/site/navbar.js",
       "client/custom/modules/altarede-custom-plugin/lib/js/record/edit.js",
-      "client/custom/modules/altarede-custom-plugin/lib/js/record/detail.js"
+      "client/custom/modules/altarede-custom-plugin/lib/js/record/detail.js",
+      "client/custom/modules/altarede-custom-plugin/lib/js/fields/url.js",
+      "client/custom/modules/altarede-custom-plugin/lib/js/fields/address.js"
     ]
 }
