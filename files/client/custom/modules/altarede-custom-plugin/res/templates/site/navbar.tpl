@@ -182,11 +182,14 @@
             {{#each itemDataList}}
                 <li class="{{class}}" data-item="{{name}}">{{{var key ../this}}}</li>
             {{/each}}
+            {{#if isAdmin}}
             <li>
                 <a href="#Admin" title="Administração">
                     <span class="fas fa-cog"></span>
                 </a>
             </li>
+            {{/if}}
+
             <li class="dropdown menu-container">
                 <a
                     id="nav-menu-dropdown"

@@ -1,0 +1,105 @@
+{
+    "actualFields": [
+        "street",
+        "number",
+        "complement", 
+        "neighborhood",
+        "city",
+        "state",
+        "country",
+        "ddd",
+        "postalCode"
+    ],
+    "fields": {
+        "street": {
+            "type": "text",
+            "maxLength": 255,
+            "dbType": "varchar",
+            "placeholder": "Logradouro"
+        },
+        "number": {
+            "type": "varchar",
+            "maxLength": 10,
+            "pattern": "$noBadCharacters",
+            "placeholder": "Número",
+            "customizationOptionsDisabled": true
+        },
+        "complement": {
+            "type": "varchar",
+            "maxLength": 100,
+            "pattern": "$noBadCharacters",
+            "placeholder": "Complemento",
+            "customizationOptionsDisabled": true
+        },
+        "neighborhood": {
+            "type": "varchar",
+            "maxLength": 100,
+            "pattern": "$noBadCharacters",
+            "placeholder": "Bairro",
+            "customizationOptionsDisabled": true
+        },
+        "city": {
+            "type": "varchar",
+            "maxLength": 100,
+            "view": "views/fields/address-city",
+            "customizationOptionsDisabled": true,
+            "customizationOptionsReferenceDisabled": true,
+            "placeholder": "Cidade",
+            "pattern": "$noBadCharacters"
+        },
+        "state": {
+            "type": "varchar",
+            "maxLength": 100,
+            "view": "views/fields/address-state",
+            "customizationOptionsDisabled": true,
+            "customizationOptionsReferenceDisabled": true,
+            "placeholder": "Estado",
+            "pattern": "$noBadCharacters"
+        },
+        "country": {
+            "type": "varchar",
+            "maxLength": 100,
+            "view": "views/fields/address-country",
+            "customizationOptionsDisabled": true,
+            "customizationOptionsReferenceDisabled": true,
+            "placeholder": "País",
+            "pattern": "$noBadCharacters"
+        },
+        "ddd": {
+            "type": "varchar",
+            "maxLength": 2,
+            "placeholder": "DDD",
+            "pattern": "$noBadCharacters"
+        },
+        "postalCode": {
+            "type": "varchar",
+            "maxLength": 40,
+            "placeholder": "CEP",
+            "pattern": "$noBadCharacters"
+        },
+        "map": {
+            "type": "map",
+            "notStorable": true,
+            "orderDisabled": true,
+            "readOnly": true,
+            "layoutListDisabled": true,
+            "provider": "Google",
+            "height": 300,
+            "exportDisabled": true,
+            "importDisabled": true
+        }
+    },
+    "params": [
+        {
+            "name": "viewMap",
+            "type": "bool"
+        }
+    ],
+    "notMergeable": true,
+    "notCreatable": false,
+    "filter": true,
+    "skipOrmDefs": true,
+    "personalData": true,
+    "valueFactoryClassName": "Espo\\Core\\Field\\Address\\AddressFactory",
+    "attributeExtractorClassName": "Espo\\Core\\Field\\Address\\AddressAttributeExtractor"
+}

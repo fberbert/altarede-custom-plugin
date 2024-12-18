@@ -2,5 +2,115 @@
     "recordViews": {
         "edit": "altarede-custom-plugin:views/record/edit",
         "detail": "altarede-custom-plugin:views/record/detail"
+    },
+    "fields": {
+        "billingAddress": {
+            "type": "address",
+            "subFields": {
+                "number": {
+                    "type": "varchar",
+                    "maxLength": 10,
+                    "pattern": "$noBadCharacters",
+                    "placeholder": "Número"
+                },
+                "complement": {
+                    "type": "varchar",
+                    "maxLength": 100,
+                    "pattern": "$noBadCharacters",
+                    "placeholder": "Complemento"
+                },
+                "neighborhood": {
+                    "type": "varchar",
+                    "maxLength": 100,
+                    "pattern": "$noBadCharacters",
+                    "placeholder": "Bairro"
+                },
+                "ddd": {
+                    "type": "varchar",
+                    "maxLength": 2,
+                    "pattern": "$noBadCharacters",
+                    "placeholder": "DDD"
+                }
+            }
+        },
+        "shippingAddress": {
+            "type": "address",
+            "subFields": {
+                "number": {
+                    "type": "varchar",
+                    "maxLength": 10,
+                    "pattern": "$noBadCharacters",
+                    "placeholder": "Número"
+                },
+                "complement": {
+                    "type": "varchar",
+                    "maxLength": 100,
+                    "pattern": "$noBadCharacters",
+                    "placeholder": "Complemento"
+                },
+                "neighborhood": {
+                    "type": "varchar",
+                    "maxLength": 100,
+                    "pattern": "$noBadCharacters",
+                    "placeholder": "Bairro"
+                },
+                "ddd": {
+                    "type": "varchar",
+                    "maxLength": 2,
+                    "pattern": "$noBadCharacters",
+                    "placeholder": "DDD"
+                }
+            }
+        },
+
+        "billingAddressNumber": {
+            "type": "varchar",
+            "maxLength": 10,
+            "isCustom": true,
+            "label": "Número"
+        },
+        "billingAddressComplement": {
+            "type": "varchar",
+            "maxLength": 100,
+            "isCustom": true,
+            "label": "Complemento"
+        },
+        "billingAddressNeighborhood": {
+            "type": "varchar",
+            "maxLength": 100,
+            "isCustom": true,
+            "label": "Bairro"
+        },
+        "billingAddressDdd": {
+            "type": "varchar",
+            "maxLength": 2,
+            "isCustom": true,
+            "label": "DDD"
+        },
+
+        "shippingAddressNumber": {
+            "type": "varchar",
+            "maxLength": 10,
+            "isCustom": true,
+            "label": "Número"
+        },
+        "shippingAddressComplement": {
+            "type": "varchar",
+            "maxLength": 100,
+            "isCustom": true,
+            "label": "Complemento"
+        },
+        "shippingAddressNeighborhood": {
+            "type": "varchar",
+            "maxLength": 100,
+            "isCustom": true,
+            "label": "Bairro"
+        },
+        "shippingAddressDdd": {
+            "type": "varchar",
+            "maxLength": 2,
+            "isCustom": true,
+            "label": "DDD"
+        }
     }
 }

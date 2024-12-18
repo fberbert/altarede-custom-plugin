@@ -1,4 +1,9 @@
 {
-    "loginView" : "altarede-custom-plugin:views/login",
-    "navbarView" : "altarede-custom-plugin:views/site/navbar"
+    "loginView": "altarede-custom-plugin:views/login",
+    "navbarView": "altarede-custom-plugin:views/site/navbar",
+    "fields": {
+        "address": {
+            "view": "altarede-custom-plugin:views/fields/address"
+        }
+    }
 }

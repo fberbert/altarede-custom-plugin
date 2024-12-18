@@ -1,4 +1,10 @@
 {
-    "view": "altarede-custom-plugin:views/fields/address"
+    "view": "altarede-custom-plugin:views/fields/address",
+    "subFields": [
+        "number",
+        "complement",
+        "neighborhood",
+        "ddd"
+    ]
 }
 

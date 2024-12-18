@@ -1,6 +1,6 @@
 <div class="detail" id="{{id}}" data-scope="{{scope}}" tabindex="-1">
     {{#unless buttonsDisabled}}
-    <div class="detail-button-container-off button-container record-buttons clearfix">
+    <div class="detail-button-container button-container record-buttons clearfix">
         <div class="btn-group actions-btn-group" role="group">
             {{#each buttonList}}
                 {{button name
@@ -74,7 +74,7 @@
         </div>
         {{/if}}
     </div>
-    <div class="detail-button-container-off button-container edit-buttons hidden clearfix">
+    <div class="detail-button-container button-container edit-buttons hidden clearfix">
         <div class="btn-group actions-btn-group" role="group">
         {{#each buttonEditList}}
             {{button name
